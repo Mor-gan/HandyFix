@@ -1,0 +1,337 @@
+* {
+  padding: none;
+  margin: 0%;
+  font-family: Roboto;
+  max-width: 100vmax;
+overflow-x: hidden;
+}
+
+#navH1 {
+  color: #0a58ca !important;
+  margin-left: 5%;
+}
+
+#navId {
+  margin-left: 10%;
+  width: 50%;
+  margin-right: 50%;
+}
+#navLi {
+  margin: 5%;
+}
+#SignupP {
+  margin-right: 5%;
+  margin-left: 5%;
+  background-color: #0a58ca !important;
+  width: 150px;
+  text-align: center;
+  font-weight: 600;
+  padding: 0.5rem;
+  color: #fafdff !important;
+  border-radius: 7px;
+}
+#span1 {
+  color: #0a58ca !important;
+}
+/* ------------------------section-1------------------ */
+#main1 {
+  margin-left: 4%;
+}
+#main1 h1 {
+  margin-top: 20%;
+  font: Roboto;
+  font-weight: 700, Bold;
+  font-size: 70px;
+}
+#main1 P {
+  font-size: 20px;
+}
+
+.button1 {
+  background-color: #0a58ca !important;
+  width: 150px;
+  text-align: center;
+  font-weight: 600;
+  padding: 0.5rem;
+  color: #e5e5e5 !important;
+  border-radius: 7px;
+  border: none;
+}
+#glance {
+  background-color: #fafdff !important;
+}
+#glance p {
+  size: 20px;
+  font-weight: 400;
+}
+#glanceH1 {
+  align-items: center;
+  text-align: center;
+  color: #052c65;
+  size: 48px;
+  text-decoration: 700, Bold;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+#glance-sec {
+  margin-left: 10%;
+}
+#glance-sec2 {
+  margin-left: 40%;
+  margin-top: 5%;
+}
+#section-3-first {
+  max-width: 25%;
+}
+#section-3-Second {
+  max-width: 75%;
+}
+.button2{
+  width: 193px;
+  height: 56px;
+  border-radius: 7px;
+  background-color: #f5fbff !important;
+  color: #0a58ca;
+  border: 1px solid #0a58ca;
+  margin: 5px;
+}
+#Rec-First img {
+  margin-left: 15%;
+  margin-top: 5%;
+}
+#Rec-third img {
+  margin-left: 15%;
+}
+#Rec-second img {
+  margin-left: 30%;
+}
+#section-3 {
+  margin-left: 10%;
+}
+#section-3 h2 {
+  margin-top: 40%;
+  color: #03193a;
+}
+/* ------section-4--------------- */
+#bluesection{
+  background-color: #0a58ca;
+align-items: center;
+}
+#bluesection2{
+  background-color: #0a58ca;
+text-align: center;
+margin-left: 15%;
+}
+#bluesection h2{
+  color :#fff;
+ text-align: center;
+ padding-top: 55px;
+ justify-content: center;
+}
+#fistBlue{
+  display: flex;
+  flex-direction: column;
+  /* max-width: 50%; */
+}
+#fistBlue h5{
+  color: #fff;
+  margin-top: 30px;
+}
+#fistBlue p{
+  color: #FAFDFF;
+  height: 150px;
+width: 312px;
+left: 280px;
+top: 2797px;
+border-radius: nullpx;
+
+}
+#blueRow button{
+margin-top: 25px;
+width: 60px;
+height: 4rem;
+border-radius: 45px;
+border: 3px solid black;
+margin-right:35px;
+/* margin-left: 25%; */
+}
+#blueRow{
+  display: flex;
+  flex-direction: row;
+  /* padding-left: 10%; */
+}
+/* ---------------------------section-5------------ */
+#group{
+padding-left: 15%;
+padding-top: 5%;
+padding-bottom: 5%;
+}
+#group h5{
+  color:#0a58ca;
+  font-family: Roboto;
+font-size:30px;
+font-weight: 700;
+text-align: left
+}
+#professional{
+  color: #03193a;
+}
+  #secondGroup{
+margin-top:5% ;
+  }
+
+  /* --------------------section-6---------------- */
+#Artisan-sec{
+  background-color:#38AEF5;
+  padding-left: 10%; 
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+#Artisan-sec h2{
+ margin-bottom: 5%;
+ margin-top: 5%;
+text-align: center;
+
+}
+#white-backgound{
+  background-color: #ffff;
+  padding-right: 20%;
+  padding-left: 5%; 
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-radius: 16px;
+}
+
+#white-backgound p{
+color: #052C65;
+}
+#blueP{
+  color: #021024;
+  font-weight: 700;
+}
+/* -------------------section7---------------- */
+#MainJoin{
+  background-color: #E5E5E5;
+}
+#Join{
+  padding-top: 5%;
+}
+#Join h2{
+  height: 56px;
+width: 930px;
+}
+#joinword{
+  margin-left: 10%;
+  /* max-width: 70%; */
+}
+/* ---------------------footer-------------- */
+footer{
+  background-color:#03193A !important;
+  color : #fff;
+  text-align : justify
+}
+#foooter h3{
+color : #fff;
+margin-left: 30px;
+height: 54px;
+width: 174px;
+font-family: Poppins;
+font-size: 36px;
+font-weight: 700;
+line-height: 54px;
+text-align: left;
+}
+#foooter p{
+left: 1070px;
+text-align: left;
+}
+
+#footer ul{
+  height: 267px;
+width: 77px;
+left: 81px;
+}
+footer  li{
+  font-family: Segoe UI;
+font-size: 16px;
+margin-top: 40px;
+}
+#foooter{
+  margin-top: 30px;
+}
+
+
+@media screen and (max-width: 992px) {
+
+  #main1 {
+  display: flex;
+  flex-direction: column;
+  }
+  #main1 h1 {
+    margin-top: 20%;
+    font: Roboto;
+    font-weight: 700, Bold;
+    font-size: 50px;
+  }
+  #Rec-second  {
+    margin-left: 3%;
+  }
+  #glance-sec2 {
+    margin-left: 10%;
+  }
+  #section-3-Para {
+    display: flex;
+    flex-direction: column;
+  }
+  #Rec-second img {
+    margin-left: 10%;
+  }
+  #section-3-first {
+    max-width: 90%;
+  }
+  #blueRow button{
+  margin-top: 25px;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 40px;
+  border: 2px solid black;
+  margin-right:35px;
+  }
+  #bluesection2{
+    background-color: #0a58ca;
+    display: flex;
+    flex-direction: column;
+  text-align: center;
+  margin-left:4%;
+  }
+  #group{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+    padding-right: 2%;
+    align-items: center;
+    text-align: center;
+    }
+    #group h5{
+      text-align: center;
+    }
+    #white-backgound{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    #womanImage{
+      overflow-y: hidden;
+    }
+    #Join{
+      display: flex;
+      flex-direction: column;
+      overflow-y: hidden;
+       margin-left: 0%;
+    }
+    #JoinWord{
+      overflow-y: hidden;
+    
+    }
+}
