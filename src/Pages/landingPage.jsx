@@ -39,7 +39,7 @@ const Landingpage = () => {
             </ul>
           </div>
           <p>Login</p>
-         <p id="SignupP">Sign Up</p> 
+         <Link to="/SignUp" id="SignupP">Sign Up</Link> 
         </nav>
       </header>
       <main>

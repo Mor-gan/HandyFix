@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Signup.css";
+import { Link } from "react-router-dom";
 import Sign from "../images/Sign.jpeg";
 
 const Signup = () => {
@@ -40,7 +41,7 @@ const Signup = () => {
              <p>By creating an account, you agree to the <span className="spann">Terms & Conditions</span>  and the <span>Privacy policy</span> </p>
            </div>
            <div>
-             <p>Already have an account?<span className="spann">  Log In</span></p>
+             <p>Already have an account?<span className="spann"> <Link to ="/Login"> Log In</Link></span></p>
            </div>
             </div>
            

@@ -2,8 +2,8 @@
   padding: none;
   margin: 0%;
   font-family: Roboto;
-  max-width: 100vmax;
-overflow-x: hidden;
+overflow-y: scroll;
+overflow-y: visible !important;
 }
 
 #navH1 {
@@ -29,6 +29,7 @@ overflow-x: hidden;
   padding: 0.5rem;
   color: #fafdff !important;
   border-radius: 7px;
+  text-decoration: none;
 }
 #span1 {
   color: #0a58ca !important;

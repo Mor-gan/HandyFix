@@ -1,14 +1,14 @@
 * {
   margin: 0%;
   padding: 0%;
-  overflow: hidden;
+  overflow-y: visible !important;
 }
 
 #secondDiv {
   margin-left: 5%;  
 }
 #secondDiv h2 {
-  margin-top: 10%;
+  margin-top: 7% !important;
 }
 #rowUser button{
     margin-right: 5%;
@@ -29,8 +29,9 @@ form input {
   left: 910px;
   top: 439px;
   border-radius: 8px;
-  margin-top: 2%;
-  border: 0.5px solid rgba(241, 245, 241, 0.933);
+  margin-top: 3% !important;
+  /* background-color: #0a58ca; */
+  border: 2px solid rgba(83, 87, 83, 0.933);
   padding: 10px;
 }
 form button {

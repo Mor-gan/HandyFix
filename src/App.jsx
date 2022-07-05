@@ -1,17 +1,31 @@
-// import Landingpage from './Pages/landingPage';
+import Landingpage from './Pages/landingPage';
 import Signup from './Pages/SignUp';
+import Login from './Pages/Login';
 import './index.css';
 import React from 'react';
-// import { Route, Routes } from 'react-router-dom'
+// import {BrowserRouter} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 function App() {
      return (
-         <div>
-           <Signup/>
-       {/* <Routes> */}
-        {/* <Route exact path="/" element={<Landingpage/>}/> */}
-          {/* </Routes>  */}
-          </div>
+       <>
+        <Router>
+      <div >
+        <Switch>
+          <Route exact path="/">
+            <Landingpage/>
+          </Route>
+          <Route path="/SignUp">
+            <Signup />
+          </Route>
+        </Switch>
+        <Route path="/Login">
+            <Login />
+          </Route>
+      </div>
+    </Router>
+       </>
+         
     );
  }
   export default App;
