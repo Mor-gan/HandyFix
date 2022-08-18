@@ -18,7 +18,7 @@ import { Link } from "react-router-dom";
 
 const Landingpage = () => {
   return (
-    <body>
+    <body className="">
       {/* -------------------header-section------------------- */}
       <header>
         <nav className="navbar navbar-expand-lg navbar-light ">

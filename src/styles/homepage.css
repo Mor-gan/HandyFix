@@ -1,0 +1,79 @@
+#sidebar{
+    padding: 5% 0 15% 3%;
+    background: #FFFFFF;
+box-shadow: 0px 1px 8px rgba(0, 153, 255, 0.16);
+height: 100vh;
+}
+#sidebar h4{
+    padding: 0 0 20% 0;
+ color:#0A58CA
+}   
+.side_link :link{
+    text-decoration: none;
+    margin-left: 3%;
+   
+}
+.side_link {
+    margin-bottom: 25% !important;
+    color:#03193A !important;
+}
+#mainDashbord{
+    background-color: #eff6f8;
+    padding: 2% 5% 5% 3%;
+}
+.searchBar{
+    border: none;
+    width:70%;
+    height: 30px;
+    padding: 3%;
+    background: url(../images/Vector\ \(4\).svg);
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y: 50%;
+    background-color: #c6d5ee !important;
+    border-radius: 7px;
+}
+#notification{
+    background: url(../images/clarity_notification-outline-badged.svg);
+    background-repeat: no-repeat;  
+}
+.welcomeNote{
+    margin: 5% 0 5% 0;
+}
+#mainWallet{
+    background-color: #0A58CA;
+    padding: 3% 0 3% 3%;
+    color: #FFFFFF;
+    border-radius: 7px;
+}
+.walletbalance{
+    text-align: center;
+    align-items: center;
+    font-size: 45px;
+    margin-bottom: 3%;
+}
+.oyawithdraw button{
+border: none;
+background-color: #0A58CA;
+color: #FFFFFF;
+cursor: pointer;
+}
+.pendingTask{
+    background: #6295db;
+    padding: 10%;
+    color: #fff;
+    margin: 0% 0 5% 5%;
+    border-radius: 7px;
+}
+.completeTask{
+    background: #CA680A;
+    padding: 10%;
+    color: #fff;
+    margin: 0% 0 0% 5%;
+    border-radius: 7px;
+}
+.taskNO{
+    font-size: 45px;
+  align-items: flex-end;
+ margin-left: 15%;
+}

@@ -2,8 +2,10 @@ import React from "react";
 import "../styles/Login.css";
 import { Link } from "react-router-dom";
 import Sign from "../images/Sign.jpeg";
+import { useHistory } from 'react-router-dom';
 
 const Login = () => {
+  const history = useHistory()
   return (
     <body>
       <div className="row" id="">
@@ -24,16 +26,13 @@ const Login = () => {
             <Link to="" className="col-md-6">  Remember me</Link> 
             <Link to="" className="col-md-6"> Forgot password</Link> 
             </div>
-             <button>Log in </button>
+             <button onClick={() => history.push('/homepage') }>Log in </button>
             </form>
            
             <div className="lastdiv">
              <p>No account yet? <span className="spann"> Sign up?</span></p>
             </div>
-           
           </div>
-      
-      
       </div>
     </body>
   );
