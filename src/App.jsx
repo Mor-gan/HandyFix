@@ -2,7 +2,7 @@ import Landingpage from './Pages/landingPage';
 import Signup from './Pages/SignUp';
 import Login from './Pages/Login';
 import Dashboard from './Pages/homepage';
-import Navbar from './assets/navbar';
+import Service from './Pages/services';
 import './index.css';
 import React from 'react';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
@@ -25,8 +25,8 @@ function App() {
           <Route path="/homepage">
             <Dashboard />
           </Route>
-          <Route path="./assets/navbar.jsx">
-            <Navbar />
+          <Route path="/services">
+            <Service />
           </Route>
           </Switch>
       </div>

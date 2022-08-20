@@ -9,6 +9,9 @@ import wallet from "../images/wallet.svg";
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
 
+
+
+
 const Dashboard = () => {
   const artisan = {
     name: "John Doe",
@@ -18,6 +21,7 @@ const Dashboard = () => {
     completeTask: 20,
     pendingTask: 15,
   };
+//   const history = useHistory()
   return (
     <>
       <div className="row ">
@@ -26,22 +30,20 @@ const Dashboard = () => {
             <h4>HandyFix</h4>
           </div>
           <div className="side_link">
-            {" "}
-            <img src={home} alt="" />{" "}
-            <Link to href="../assets/navbar.jsx">
+            <img src={home} alt=""/> 
+            <Link to="/">
               Home
             </Link>
           </div>
           <div className="side_link">
             {" "}
-            <img src={history} alt="" />
-            <Link to href="">
+            <img src={history} alt=" " />
+            <a to href="/services "  >
               Services
-            </Link>{" "}
+            </a>
             
           </div>
           <div className="side_link">
-            {" "}
             <img src={history} alt="" />
             <Link to href="">
               History

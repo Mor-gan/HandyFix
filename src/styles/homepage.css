@@ -32,6 +32,7 @@ height: 100vh;
     background-position-y: 50%;
     background-color: #c6d5ee !important;
     border-radius: 7px;
+    cursor: pointer;
 }
 #notification{
     background: url(../images/clarity_notification-outline-badged.svg);
@@ -76,4 +77,17 @@ cursor: pointer;
     font-size: 45px;
   align-items: flex-end;
  margin-left: 15%;
+}
+
+/* service */
+#left{
+    margin-right: 3%;
+}
+#navImage{
+    margin-right: 3%;
+}
+
+
+@media screen and (max-width: 992px) {
+
 }

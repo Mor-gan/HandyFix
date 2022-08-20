@@ -16,13 +16,17 @@ if (searchInput.length > 0) {
     return artisan.name.match(searchInput);
 });
 }
+const [show, setShow] = useState(true);
+
 return <div>
 <input
 className="searchBar"
    type="search"
    placeholder="Search by category, name,..."
    onChange={handleChange}
-   value={searchInput} />
+   value={searchInput} 
+   onClick={() => setShow(false)}
+   />
 </div>
 };
 export default Searchbar;

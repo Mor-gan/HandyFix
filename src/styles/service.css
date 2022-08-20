@@ -1,0 +1,32 @@
+.Heroservice{
+    background-image: url(../images/pexels-field-engineer-442160\ 1.svg);
+    background-size: cover;
+    color: #FFFFFF;
+    height: 40vh;
+    margin: 0 5% 0 5%;
+    padding: 50px;
+}
+.Heroservice p{
+    font-size: 40px;
+    text-align: right;
+    padding: 0 50px 0 0;
+    font-weight: 600;
+}
+body{
+    background-color: #dfecf2;
+}
+#service{
+    padding: 5%;
+}
+#image1, #image2, #image3, #image4, #image5{
+    background-repeat: no-repeat;
+}
+#image2{
+    background-image: url(../images/Rec1.png);
+    height: 30vh;
+}
+#image1{
+    background-image: url(../images/Rec1.png);
+    height: 30vh;
+    
+}
