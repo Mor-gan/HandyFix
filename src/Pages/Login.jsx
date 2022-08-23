@@ -10,7 +10,8 @@ const Login = () => {
     <body>
       <div className="row" id="">
       <div className="col-md-6" id="imageman">
-          <img src={Sign} height={"800px"} alt="" />
+        <div id="login"></div>
+          {/* <img src={Sign} height={"800px"} alt="" /> */}
         </div>
         <div className="col-md-5" id="secondDivv">
             <h2 >Welcome</h2>

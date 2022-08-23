@@ -1,12 +1,11 @@
 import React from "react";
 import Navbar from "../assets/navbar";
-import "../styles/service.css"
-// import Rec1 from "../images/Rec1.png";
-// import Rec2 from "../images/Rec2.png";
-// import Rec3 from "../images/Rec3.png";
-// import Rec4 from "../images/Rec4.png";
-// import Rec5 from "../images/Rec5.png";
-// import Rec from "../images/Rec.png";
+import "../styles/service.css";
+import Image1 from "../images/Image1.svg";
+import Image2 from "../images/Image2.svg";
+import Image3 from "../images/Image3.svg";
+import Image4 from "../images/Image4.svg";
+import image5 from "../images/image5.svg"
 
 const Service = () => {
     return (
@@ -25,6 +24,14 @@ const Service = () => {
           <div className="col-md-2"><div  id="image1"></div><div>Mechanic</div></div>
           <div className="col-md-2"><div  id="image1"></div><div>Mechanic</div></div>
           <div></div>
+        </div>
+        <div className="row" id="rating"> 
+          <div className="col-md-2"><img src= {Image1} /><p>Star</p></div>
+          <div className="col-md-2"><img src= {Image2}/></div>
+          <div className="col-md-2"><img src= {Image3}/></div>
+          <div className="col-md-2"><img src= {Image4}/></div>
+          <div className="col-md-2"><img src= {image5}/></div>
+          <div className="col-md-2"><img src= {Image4}/></div>
         </div>
         </body>      
     )

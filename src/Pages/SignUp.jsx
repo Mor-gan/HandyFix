@@ -20,7 +20,7 @@ const Signup = () => {
             </div>
             <form>
             <input 
-            type="text"  name="firstName" placeholder="Firstname"
+            type="text"  name="firstName" placeholder="Firstname" minLength={3} required
             />
              <input 
             type="text"  name="lastName" placeholder="Lastname"
@@ -34,7 +34,7 @@ const Signup = () => {
             <input
              type="text"  name="confirmPassword" placeholder="Confirm Password"
             />
-             <button>Create account </button>
+             <button type="submit">Create account </button>
             </form>
             <div className="lastdiv">
             <div>
