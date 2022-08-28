@@ -26,6 +26,7 @@ const Service = () => {
           <div></div>
         </div>
         <div className="row" id="rating"> 
+        <h4>Ratings</h4>
           <div className="col-md-2"><img src= {Image1} /><p>Star</p></div>
           <div className="col-md-2"><img src= {Image2}/></div>
           <div className="col-md-2"><img src= {Image3}/></div>
