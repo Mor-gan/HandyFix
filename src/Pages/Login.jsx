@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/Login.css";
 import { Link } from "react-router-dom";
-import Sign from "../images/Sign.jpeg";
 import { useHistory } from 'react-router-dom';
 
 const Login = () => {

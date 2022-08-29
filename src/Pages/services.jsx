@@ -5,7 +5,8 @@ import Image1 from "../images/Image1.svg";
 import Image2 from "../images/Image2.svg";
 import Image3 from "../images/Image3.svg";
 import Image4 from "../images/Image4.svg";
-import image5 from "../images/image5.svg"
+import image5 from "../images/image5.svg";
+import Star from "../assets/star";
 
 const Service = () => {
     return (
@@ -27,7 +28,7 @@ const Service = () => {
         </div>
         <div className="row" id="rating"> 
         <h4>Ratings</h4>
-          <div className="col-md-2"><img src= {Image1} /><p>Star</p></div>
+          <div className="col-md-2"><img src= {Image1} /><Star/></div>
           <div className="col-md-2"><img src= {Image2}/></div>
           <div className="col-md-2"><img src= {Image3}/></div>
           <div className="col-md-2"><img src= {Image4}/></div>
