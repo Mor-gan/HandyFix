@@ -17,10 +17,10 @@ const Login = () => {
             <p>Login to your account</p>
             <form>
             <input 
-            type="text"  name="email" placeholder="@Email"
+            type="text"  name="email" placeholder="@Email" required
             />
             <input
-             type="text"  name="password" placeholder="Password"
+             type="text"  name="password" placeholder="Password" required 
             />
              <div className="row" id='loginlink'>
             <Link to="" className="col-md-6">  Remember me</Link> 

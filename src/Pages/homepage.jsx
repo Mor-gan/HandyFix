@@ -9,9 +9,6 @@ import wallet from "../images/wallet.svg";
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
 
-
-
-
 const Dashboard = () => {
   const artisan = {
     name: "John Doe",
@@ -25,7 +22,7 @@ const Dashboard = () => {
   return (
     <>
       <div className="row ">
-        <div className="col-md-2 " id="sidebar">
+        <div className="col-md-2 "  id="myTopnav">
           <div>
             <h4>HandyFix</h4>
           </div>
@@ -36,7 +33,6 @@ const Dashboard = () => {
             </Link>
           </div>
           <div className="side_link">
-            {" "}
             <img src={history} alt=" " />
             <a to href="/services "  >
               Services
@@ -47,10 +43,9 @@ const Dashboard = () => {
             <img src={history} alt="" />
             <Link to href="">
               History
-            </Link>{" "}
+            </Link>
           </div>
           <div className="side_link">
-            {" "}
             <img src={message} alt="" />
             <Link to href="">
               Complaint
@@ -77,8 +72,8 @@ const Dashboard = () => {
             <div className="row" id="walletDiv">
               <div className="col-md-3" id="mainWallet">
                 <div className="firstWallet">
-                  <img src={wallet} />
-                  Wallet
+                  <img src={wallet} id="walletImg"/>
+                  Wallet 
                 </div>
                 <div className="walletbalance">{artisan.walletBalance}</div>
                 <div className="oyawithdraw">

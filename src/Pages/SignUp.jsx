@@ -2,8 +2,11 @@ import React from "react";
 import "../styles/Signup.css";
 import { Link } from "react-router-dom";
 import Sign from "../images/Sign.jpeg";
+import { useHistory } from 'react-router-dom';
 
 const Signup = () => {
+  const history = useHistory()
+
   return (
     <body>
       <div className="row" id="imagesignup">
@@ -23,18 +26,18 @@ const Signup = () => {
             type="text"  name="firstName" placeholder="Firstname" minLength={3} required
             />
              <input 
-            type="text"  name="lastName" placeholder="Lastname"
+            type="text"  name="lastName" placeholder="Lastname" minLength={3} required
             />
             <input 
-            type="text"  name="email" placeholder="@Email"
+            type="email"  name="email" placeholder="@Email"
             />
             <input
-             type="text"  name="password" placeholder="Password"
+             type="password"  name="password" placeholder="Password" 
             />
             <input
              type="text"  name="confirmPassword" placeholder="Confirm Password"
             />
-             <button type="submit">Create account </button>
+             <button type="submit" onClick={() => history.push('/Login') }>Create account </button>
             </form>
             <div className="lastdiv">
             <div>
