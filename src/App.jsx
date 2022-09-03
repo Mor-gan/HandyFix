@@ -3,6 +3,7 @@ import Signup from './Pages/SignUp';
 import Login from './Pages/Login';
 import Dashboard from './Pages/homepage';
 import Service from './Pages/services';
+import Description from "./Pages/description"
 import './index.css';
 import React from 'react';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
@@ -27,6 +28,9 @@ function App() {
           </Route>
           <Route path="/services">
             <Service />
+          </Route>
+          <Route path="/description">
+            <Description/>
           </Route>
           </Switch>
       </div>
