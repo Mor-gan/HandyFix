@@ -2,8 +2,8 @@
   padding: none;
   margin: 0%;
   font-family: Roboto;
-overflow-y: scroll;
-overflow-y: visible !important;
+  overflow-y: scroll;
+  overflow-y: visible !important;
 }
 
 #navH1 {
@@ -44,7 +44,7 @@ overflow-y: visible !important;
   font-weight: 700, Bold;
   font-size: 70px;
 }
-#main1 P {
+#main1 p {
   font-size: 20px;
 }
 
@@ -87,7 +87,7 @@ overflow-y: visible !important;
 #section-3-Second {
   max-width: 75%;
 }
-.button2{
+.button2 {
   width: 193px;
   height: 56px;
   border-radius: 7px;
@@ -114,162 +114,158 @@ overflow-y: visible !important;
   color: #03193a;
 }
 /* ------section-4--------------- */
-#bluesection{
+#bluesection {
   background-color: #0a58ca;
-align-items: center;
+  align-items: center;
 }
-#bluesection2{
+#bluesection2 {
   background-color: #0a58ca;
-text-align: center;
-margin-left: 15%;
+  text-align: center;
+  margin-left: 15%;
 }
-#bluesection h2{
-  color :#fff;
- text-align: center;
- padding-top: 55px;
- justify-content: center;
+#bluesection h2 {
+  color: #fff;
+  text-align: center;
+  padding-top: 55px;
+  justify-content: center;
 }
-#fistBlue{
+#fistBlue {
   display: flex;
   flex-direction: column;
   /* max-width: 50%; */
 }
-#fistBlue h5{
+#fistBlue h5 {
   color: #fff;
   margin-top: 30px;
 }
-#fistBlue p{
-  color: #FAFDFF;
+#fistBlue p {
+  color: #fafdff;
   height: 150px;
-width: 312px;
-left: 280px;
-top: 2797px;
-border-radius: nullpx;
-
+  width: 312px;
+  left: 280px;
+  top: 2797px;
+  border-radius: nullpx;
 }
-#blueRow button{
-margin-top: 25px;
-width: 60px;
-height: 4rem;
-border-radius: 45px;
-border: 3px solid black;
-margin-right:35px;
-/* margin-left: 25%; */
+#blueRow button {
+  margin-top: 25px;
+  width: 60px;
+  height: 4rem;
+  border-radius: 45px;
+  border: 3px solid white;
+  margin-right: 35px;
+  /* margin-left: 25%; */
 }
-#blueRow{
+#blueRow {
   display: flex;
   flex-direction: row;
   /* padding-left: 10%; */
 }
 /* ---------------------------section-5------------ */
-#group{
-padding-left: 15%;
-padding-top: 5%;
-padding-bottom: 5%;
+#group {
+  padding-left: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
-#group h5{
-  color:#0a58ca;
+#group h5 {
+  color: #0a58ca;
   font-family: Roboto;
-font-size:30px;
-font-weight: 700;
-text-align: left
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
 }
-#professional{
+#professional {
   color: #03193a;
 }
-  #secondGroup{
-margin-top:5% ;
-  }
+#secondGroup {
+  margin-top: 5%;
+}
 
-  /* --------------------section-6---------------- */
-#Artisan-sec{
-  background-color:#38AEF5;
-  padding-left: 10%; 
+/* --------------------section-6---------------- */
+#Artisan-sec {
+  background-color: #38aef5;
+  padding-left: 10%;
   padding-right: 5%;
   padding-bottom: 5%;
 }
-#Artisan-sec h2{
- margin-bottom: 5%;
- margin-top: 5%;
-text-align: center;
-
+#Artisan-sec h2 {
+  margin-bottom: 5%;
+  margin-top: 5%;
+  text-align: center;
 }
-#white-backgound{
+#white-backgound {
   background-color: #ffff;
   padding-right: 20%;
-  padding-left: 5%; 
+  padding-left: 5%;
   padding-top: 3%;
   padding-bottom: 3%;
   border-radius: 16px;
 }
 
-#white-backgound p{
-color: #052C65;
+#white-backgound p {
+  color: #052c65;
 }
-#blueP{
+#blueP {
   color: #021024;
   font-weight: 700;
 }
 /* -------------------section7---------------- */
-#MainJoin{
-  background-color: #E5E5E5;
+#MainJoin {
+  background-color: #e5e5e5;
 }
-#Join{
+#Join {
   padding-top: 5%;
 }
-#Join h2{
+#Join h2 {
   height: 56px;
-width: 930px;
+  width: 930px;
 }
-#joinword{
+#joinword {
   margin-left: 10%;
   /* max-width: 70%; */
 }
 /* ---------------------footer-------------- */
-footer{
-  background-color:#03193A !important;
-  color : #fff;
-  text-align : justify
+footer {
+  background-color: #03193a !important;
+  color: #fff;
+  text-align: justify;
 }
-#foooter h3{
-color : #fff;
-margin-left: 30px;
-height: 54px;
-width: 174px;
-font-family: Poppins;
-font-size: 36px;
-font-weight: 700;
-line-height: 54px;
-text-align: left;
+#foooter h3 {
+  color: #fff;
+  margin-left: 30px;
+  height: 54px;
+  width: 174px;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  text-align: left;
 }
-#foooter p{
-left: 1070px;
-text-align: left;
+#foooter p {
+  left: 1070px;
+  text-align: left;
 }
 
-#footer ul{
+#footer ul {
   height: 267px;
-width: 77px;
-left: 81px;
+  width: 77px;
+  left: 81px;
 }
-footer  li{
+footer li {
   font-family: Segoe UI;
-font-size: 16px;
-margin-top: 40px;
+  font-size: 16px;
+  margin-top: 40px;
 }
-#foooter{
+#foooter {
   margin-top: 30px;
 }
 
-
 @media screen and (max-width: 992px) {
-
-body{
-  width: 100%;
-}
+  body {
+    width: 100%;
+  }
   #main1 {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
   }
   #main1 h1 {
     margin-top: 20%;
@@ -277,7 +273,7 @@ body{
     font-weight: 700, Bold;
     font-size: 50px;
   }
-  #Rec-second  {
+  #Rec-second {
     margin-left: 3%;
   }
   #glance-sec2 {
@@ -293,49 +289,48 @@ body{
   #section-3-first {
     max-width: 90%;
   }
-  #blueRow button{
-  margin-top: 25px;
-  width: 3rem;
-  height: 3rem;
-  border-radius: 40px;
-  border: 2px solid black;
-  margin-right:35px;
+  #blueRow button {
+    margin-top: 25px;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 40px;
+    border: 2px solid white;
+    margin-right: 35px;
   }
-  #bluesection2{
+  #bluesection2 {
     background-color: #0a58ca;
     display: flex;
     flex-direction: column;
-  text-align: center;
-  margin-left:4%;
+    text-align: center;
+    margin-left: 4%;
   }
-  #group{
+  #group {
     display: flex;
     flex-direction: column;
     padding-left: 2%;
     padding-right: 2%;
     align-items: center;
     text-align: center;
-    }
-    #group h5{
-      text-align: center;
-    }
-    #white-backgound{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-    #womanImage{
-      overflow-y: hidden;
-    }
-    #Join{
-      display: flex;
-      flex-direction: column;
-      overflow-y: hidden;
-       margin-left: 0%;
-    }
-    #JoinWord{
-      overflow-y: hidden;
-    
-    }
+  }
+  #group h5 {
+    text-align: center;
+  }
+  #white-backgound {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  #womanImage {
+    overflow-y: hidden;
+  }
+  #Join {
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    margin-left: 0%;
+  }
+  #JoinWord {
+    overflow-y: hidden;
+  }
 }

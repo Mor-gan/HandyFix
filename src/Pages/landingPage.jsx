@@ -1,5 +1,4 @@
 import React from "react";
-// import { link } from 'react-router-dom'
 import "../styles/landingPage.css";
 import Carpenter3 from "../images/Carpenter3.png";
 import glance1 from "../images/glance1.jpeg";
