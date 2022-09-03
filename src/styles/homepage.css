@@ -55,11 +55,15 @@ height: 100vh;
     margin-bottom: 3%;
 }
 .oyawithdraw button{
-border: none;
-background-color: #0A58CA;
 color: #FFFFFF;
 cursor: pointer;
-padding: 12%;
+width: 100%;
+text-align: left;
+}
+.oyawithdraw{
+    border: none;
+    background-color: #0A58CA;
+    height: 12vh;
 }
 .pendingTask{
     background: #6295db;
@@ -89,6 +93,22 @@ padding: 12%;
     margin-right: 3%;
 }
 
+/* star rating */
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 40px;
+    width:40px
+  }
+  .on {
+    color:#FAD11E; 
+  }
+  .off {
+    color: #ccc;
+  }
+ 
 @media screen and (max-width: 900px) {
 #image1{
    text-align: center; 

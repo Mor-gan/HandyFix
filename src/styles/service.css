@@ -32,4 +32,8 @@ body{
 }
 #rating{
 padding: 5%;
+/* text-align: center; */
 }
+#ratinng{
+    text-align: center;
+    }
