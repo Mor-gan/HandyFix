@@ -1,0 +1,15 @@
+.uploadh4 h4{
+    margin-top: 5%;
+}
+form{
+    background-image: url("../images/Polygon\ 15.svg");
+    background-color:#f2f5f6 ;
+    height: 100vh;
+    padding: 5% 5% 5% 10%;
+}
+.selectJob{
+    margin-bottom: 5%;
+}
+.selectJob h4{
+    margin-bottom: 3%;
+}
