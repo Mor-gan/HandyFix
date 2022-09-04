@@ -1,7 +1,33 @@
 .uploadh4 h4{
     margin-top: 5%;
 }
-form{
+body{
+    overflow: hidden;
+}
+.selectJob textarea{
+width: 35vw;
+}
+#upperLink{
+    padding: 30px 0 0 20px;
+}
+#upperLink button{
+    width: 30vw;
+    text-decoration: none;
+    color: rgb(176, 168, 168);
+    font-size: 28px;
+    overflow-y: hidden !important;
+}
+/* #descriptionLink1{
+    text-decoration: none;
+    color: rgb(176, 168, 168);
+    font-size: 28px;
+}
+#descriptionLink2{
+    text-decoration: none;
+    color: rgb(176, 168, 168);
+    font-size: 28px;
+} */
+.formD{
     background-image: url("../images/Polygon\ 15.svg");
     background-color:#f2f5f6 ;
     height: 100vh;
@@ -9,7 +35,13 @@ form{
 }
 .selectJob{
     margin-bottom: 5%;
+    overflow-x: hidden;
 }
 .selectJob h4{
     margin-bottom: 3%;
+}
+.selectoptions{
+    padding: 2%;
+    height: 25%;
+    width:25%
 }
