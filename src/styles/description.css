@@ -4,9 +4,6 @@
 body{
     overflow: hidden;
 }
-.selectJob textarea{
-width: 35vw;
-}
 #upperLink{
     padding: 30px 0 0 20px;
 }
@@ -35,13 +32,33 @@ width: 35vw;
 }
 .selectJob{
     margin-bottom: 5%;
-    overflow-x: hidden;
+}
+.selectJob textarea{
+    overflow-y: hidden;
+    width:60vw !important
 }
 .selectJob h4{
     margin-bottom: 3%;
 }
 .selectoptions{
     padding: 2%;
-    height: 25%;
-    width:25%
+    height: 5vh;
+    width:30vw
+}
+.classButton{
+    width:60vw
+}
+#bluedetails{
+    height: 100vh;
+    color:#f2f5f6;
+    background-color: #0A58CA;
+    overflow-y: hidden;
+    padding: 0 0 0 5%;
+}
+#bluedetails h6{
+margin: 0 0 5% 0;
+}
+.bluecard{
+   border-bottom: 0.5px solid #b4b5b5;
+   padding: 5% 0 15% 0;
 }

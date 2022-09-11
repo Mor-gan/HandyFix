@@ -28,7 +28,7 @@ const Description = () => {
         <form className="formD">
           <div className="selectJob">
             <h4>Please choose the service you need.</h4>
-            <select className="selectoptions">
+            <select className="selectoptions" placeholder="Electrician">Electrician
               <option>Electrician</option>
               <option>Mechanic</option>
               <option>Hair stylist</option>
@@ -59,7 +59,7 @@ const Description = () => {
               />
             </div>
           </div>
-          <button type="submit">CONTINUE</button>
+          <button className="classButton" type="submit">CONTINUE</button>
         </form>
       </div>
     </body>

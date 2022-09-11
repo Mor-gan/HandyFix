@@ -4,6 +4,8 @@ import Login from './Pages/Login';
 import Dashboard from './Pages/homepage';
 import Service from './Pages/services';
 import Description from "./Pages/description"
+import Location from "./Pages/location"
+import Payment from "./Pages/payment"
 import './index.css';
 import React from 'react';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
@@ -31,6 +33,12 @@ function App() {
           </Route>
           <Route path="/description">
             <Description/>
+          </Route>
+          <Route path="/location">
+            <Location/>
+          </Route>
+          <Route path="/payment">
+            <Payment/>
           </Route>
           </Switch>
       </div>
