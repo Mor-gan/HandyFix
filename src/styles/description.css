@@ -30,6 +30,10 @@ body{
     height: 100vh;
     padding: 5% 5% 5% 10%;
 }
+.formPayment{
+    background-image: url("../images/Polygon\ 15.svg"); 
+    height: 94vh; 
+}
 .selectJob{
     margin-bottom: 5%;
 }
@@ -61,4 +65,16 @@ margin: 0 0 5% 0;
 .bluecard{
    border-bottom: 0.5px solid #b4b5b5;
    padding: 5% 0 15% 0;
+}
+.card{
+    background-image: url(../images/card.svg);
+    background-repeat: no-repeat;
+}
+.numberinput{
+    background-image: url(../../src/images/visacard.svg);
+    background-position-x: 90%;
+    background-repeat: no-repeat;
+}
+#payment_button{
+ 
 }

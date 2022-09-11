@@ -1,10 +1,12 @@
 import React, { useState } from "react";
-import camera from "../images/camera.svg";
-import DatePicker from "react-datepicker";
+import card from "../images/card.svg";
+import visa from "../images/visa.svg";
+import visacard from "../images/visacard.svg";
+import imagee from "../images/image 9.svg";
 import "../styles/description.css";
 import "react-datepicker/dist/react-datepicker.css";
 import { Link } from "react-router-dom";
-// import TimePicker from 'react-dropdown-timepicker';
+
 
 const Description = () => {
     const details = {
@@ -35,10 +37,41 @@ amount:50000
                     <p>{details.amount}</p>
                 </div>
             </div>
-            <div className="col-md-8">
+            <div className="col-md-7">
                 <div className="row">
-                <div className="col-md-5"> <button id="descriptionLink1">Description</button></div>
-          <div className="col-md-5"><button  id="descriptionLink2">Location</button></div>
+                <div className=""><h2>PAYMENT DETAILS</h2></div>
+                <form className="formPayment">
+                  <div> <img src={card} /></div> 
+                  <div className="row">
+                    <label className="col-md-3" for="Card">Card number </label>
+                    <input placeholder="card number" className="numberinput"></input>
+                  </div>
+                  <div className="row">
+                  <div className="col-md-6">
+                    <label for="Card">Card number </label>
+                    <input className="input1"></input>
+                  </div>
+                  <div className="col-md-3">
+                    <label for="Card">Card number </label>
+                    <input className="input1"></input>
+                  </div>
+                  <div className="col-md-3">
+                    <label for="Card">Card number </label>
+                    <input className="input1"></input>
+                  </div>
+                  <p>By clicking the ‘Pay Now’ button, I hereby accept the Terms & Conditions of payment.</p>
+                  </div>
+                  <div className="row" id="payment_button">
+                  <button className="col-md-4">Cancel</button>
+                  <button className="col-md-4">Pay now</button>
+                  </div>
+                  <div>
+                    <img src={visa}/>
+                    <img src={visacard}/>
+                    <img src={imagee}/>
+                </div>
+                </form>
+              
                 </div>
             </div>
          
