@@ -47,9 +47,9 @@ const Dashboard = () => {
           </div>
           <div className="side_link">
             <img src={message} alt="" />
-            <Link to href="/descrition">
+            <a href="https://www.linkedin.com/in/ogundipe-abimbola-a570bb156">
               Complaint
-            </Link>
+            </a>
           </div>
         </div>
         <div className="col-md-10" id="mainDashbord">

@@ -1,5 +1,5 @@
 * {
-  padding: none;
+  padding: 0%;
   margin: 0%;
   font-family: Roboto;
   overflow-y: scroll;
@@ -30,6 +30,12 @@
   color: #fafdff !important;
   border-radius: 7px;
   text-decoration: none;
+}
+#SignupP:hover {
+  transform: translateX(20px);
+  background: #ffffff !important;
+  transition: 0.5s;
+  color: #052c65 !important;
 }
 #span1 {
   color: #0a58ca !important;
@@ -220,7 +226,7 @@
   width: 930px;
 }
 #joinword {
-  margin-left: 10%;
+  padding-left: 10%;
   /* max-width: 70%; */
 }
 /* ---------------------footer-------------- */
@@ -262,6 +268,11 @@ footer li {
 @media screen and (max-width: 992px) {
   body {
     width: 100%;
+    /* align-items: center;
+    padding: 5%; */
+  }
+  #Join h2 {
+    font-size:20px;
   }
   #main1 {
     display: flex;
@@ -288,6 +299,9 @@ footer li {
   }
   #section-3-first {
     max-width: 90%;
+  }
+  #fistBlue p {
+  width: 263px;
   }
   #blueRow button {
     margin-top: 25px;

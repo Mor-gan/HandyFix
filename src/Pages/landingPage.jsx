@@ -53,7 +53,7 @@ const Landingpage = () => {
               Our platform offers you the best and verified artians around you
               at very affordable prices.
             </p>
-            <button className="button1">Book Now</button>
+            <button className="button1" id="SignupP">Book Now</button>
           </div>
           <div className="col" id="carpenter">
             <img src={Carpenter3} alt="" />
@@ -120,7 +120,7 @@ const Landingpage = () => {
                 Electricals, Plumbing, Generator repairs, Air conditioner
                 repairs e.t.c
               </p>
-              <button className="button2">Explore</button>
+              <button className="button2" id="SignupP">Explore</button>
             </div>
             <div className="col" id="section-3-Se">
               <div className="" id="Rec-First">
