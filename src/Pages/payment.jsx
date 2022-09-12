@@ -41,22 +41,22 @@ amount:50000
                 <div className="row">
                 <div className=""><h2>PAYMENT DETAILS</h2></div>
                 <form className="formPayment">
-                  <div> <img src={card} /></div> 
-                  <div className="row">
+                  <div className="cardimage"> <img src={card} /></div> 
+                  <div className="row" id="cardinput">
                     <label className="col-md-3" for="Card">Card number </label>
                     <input placeholder="card number" className="numberinput"></input>
                   </div>
                   <div className="row">
                   <div className="col-md-6">
                     <label for="Card">Card number </label>
-                    <input className="input1"></input>
+                    <input placeholder="Janet Herbert" className="input1"></input>
                   </div>
                   <div className="col-md-3">
-                    <label for="Card">Card number </label>
-                    <input className="input1"></input>
+                    <label for="Card">Expiry Date </label>
+                    <input placeholder="MM/YY" className="input1"></input>
                   </div>
-                  <div className="col-md-3">
-                    <label for="Card">Card number </label>
+                  <div className="col-md-2">
+                    <label for="Card">CVV </label>
                     <input className="input1"></input>
                   </div>
                   <p>By clicking the ‘Pay Now’ button, I hereby accept the Terms & Conditions of payment.</p>

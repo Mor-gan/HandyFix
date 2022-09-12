@@ -3,10 +3,11 @@ import camera from "../images/camera.svg";
 import DatePicker from "react-datepicker";
 import "../styles/description.css";
 import "react-datepicker/dist/react-datepicker.css";
-import { Link } from "react-router-dom";
+import { useHistory } from 'react-router-dom';
 // import TimePicker from 'react-dropdown-timepicker';
 
 const Description = () => {
+  const history = useHistory()
   const [image, setImage] = useState(null);
   const [createObjectURL, setCreateObjectURL] = useState(null);
   const uploadToClient = (event) => {
@@ -59,7 +60,7 @@ const Description = () => {
               />
             </div>
           </div>
-          <button className="classButton" type="submit">CONTINUE</button>
+          <button className="classButton" onClick={() => history.push('/payment') } type="submit">CONTINUE</button>
         </form>
       </div>
     </body>

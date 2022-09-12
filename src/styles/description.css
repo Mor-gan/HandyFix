@@ -2,7 +2,8 @@
     margin-top: 5%;
 }
 body{
-    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 #upperLink{
     padding: 30px 0 0 20px;
@@ -32,7 +33,7 @@ body{
 }
 .formPayment{
     background-image: url("../images/Polygon\ 15.svg"); 
-    height: 94vh; 
+    /* height: 94vh;  */
 }
 .selectJob{
     margin-bottom: 5%;
@@ -53,7 +54,7 @@ body{
     width:60vw
 }
 #bluedetails{
-    height: 100vh;
+    /* height: 100vh; */
     color:#f2f5f6;
     background-color: #0A58CA;
     overflow-y: hidden;
@@ -75,6 +76,23 @@ margin: 0 0 5% 0;
     background-position-x: 90%;
     background-repeat: no-repeat;
 }
-#payment_button{
- 
+#payment_button button{
+  margin: 5% ;
+}
+.cardimage{
+    text-align: center;
+    align-items: center;
+}
+#cardinput{
+    margin-top: 5%;
+}
+
+@media screen and (max-width: 900px) {
+#bluedetails{
+    display: none;
+}
+#payment_button button{
+    text-align: center;
+    align-items: center;
+  }
 }

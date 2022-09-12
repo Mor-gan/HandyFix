@@ -41,13 +41,13 @@ const Dashboard = () => {
           </div>
           <div className="side_link">
             <img src={history} alt="" />
-            <Link to href="">
-              History
-            </Link>
+            <a to href="/description "  >
+              Description
+            </a>
           </div>
           <div className="side_link">
             <img src={message} alt="" />
-            <Link to href="">
+            <Link to href="/descrition">
               Complaint
             </Link>
           </div>
