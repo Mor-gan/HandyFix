@@ -2,12 +2,17 @@ import React from "react";
 import "../styles/Signup.css";
 import { Link } from "react-router-dom";
 import Sign from "../images/Sign.jpeg";
+import formInput from "../hooks/signUp";
 import { useHistory } from 'react-router-dom';
 
 const Signup = () => {
-  const history = useHistory()
-
-  return (
+const history = useHistory()
+const [firstName, binderFirstname, resetFirstname] = formInput()
+const [lastName, binderLastname, resetLastname] = formInput()
+const [email, binderEmail, resetEmail] = formInput() 
+const [password, binderPassword, resetPassword] = formInput()
+const [confirmPassword, bindercomfirmPassword, resetcomfirmPassword] = formInput()
+return (
     <body>
       <div className="row" id="imagesignup">
         <div className="col" id="imageman">
@@ -23,19 +28,21 @@ const Signup = () => {
             </div>
             <form>
             <input 
-            type="text"  name="firstName" placeholder="Firstname" minLength={3} required
+            type="text"  name="firstName" value={firstName} placeholder="Firstname" minLength={3} required
+            {...binderFirstname}
             />
              <input 
-            type="text"  name="lastName" placeholder="Lastname" minLength={3} required
+            type="text"  name="lastName" value={lastName} placeholder="Lastname" minLength={3} required
+            {...binderLastname}
             />
             <input 
-            type="email"  name="email" placeholder="@Email"
+            type="email" value={email} name="email" placeholder="@Email" {...binderEmail}
             />
             <input
-             type="password"  name="password" placeholder="Password" 
+             type="password" {...binderPassword} value={password} name="password" placeholder="Password" 
             />
             <input
-             type="text"  name="confirmPassword" placeholder="Confirm Password"
+             type="password" {...bindercomfirmPassword} value={confirmPassword} name="confirmPassword" placeholder="Confirm Password"
             />
              <button type="submit" onClick={() => history.push('/Login') }>Create account </button>
             </form>
