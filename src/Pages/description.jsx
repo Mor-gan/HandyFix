@@ -9,6 +9,7 @@ import { useHistory } from 'react-router-dom';
 const Description = () => {
   const history = useHistory()
   const [image, setImage] = useState(null);
+  const [userData, setUserData] = useState(null);
   const [createObjectURL, setCreateObjectURL] = useState(null);
   const uploadToClient = (event) => {
     if (event.target.files && event.target.files[0]) {
@@ -18,6 +19,12 @@ const Description = () => {
     }
   };
   const [startDate, setStartDate] = useState(new Date());
+  const handleChange = (e) => {
+    setUserData({
+      ...userData,
+      [e.target.id]: e.target.value,
+    });
+  };
 
   return (
     <body>
@@ -29,8 +36,11 @@ const Description = () => {
         <form className="formD">
           <div className="selectJob">
             <h4>Please choose the service you need.</h4>
-            <select className="selectoptions" placeholder="Electrician">Electrician
-              <option>Electrician</option>
+            <select className="selectoptions" placeholder="Electrician" 
+            onChange={handleChange}
+            defaultValue={"default"}
+            >Electrician
+              <option value={"default"}>Electrician</option>
               <option>Mechanic</option>
               <option>Hair stylist</option>
               <option>Barber</option>
