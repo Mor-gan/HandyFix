@@ -60,6 +60,11 @@ body{
     overflow-y: hidden;
     padding: 0 0 0 5%;
 }
+.option1{
+    color: black !important;
+    padding: 0.5%  !important;
+    width: 50%;
+}
 #bluedetails h6{
 margin: 0 0 5% 0;
 }

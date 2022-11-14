@@ -27,8 +27,7 @@ const Login = () => {
             <Link to="" className="col-md-6"> Forgot password</Link> 
             </div>
              <button onClick={() => history.push('/homepage') }>Log in </button>
-            </form>
-           
+            </form>           
             <div className="lastdiv">
              <p>No account yet? <span className="spann"> Sign up?</span></p>
             </div>

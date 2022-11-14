@@ -19,13 +19,34 @@ const Description = () => {
     }
   };
   const [startDate, setStartDate] = useState(new Date());
-  const handleChange = (e) => {
-    setUserData({
-      ...userData,
-      [e.target.id]: e.target.value,
-    });
+  // const handleChange = (e) => {
+  //   setUserData({
+  //     ...userData,
+  //     [e.target.id]: e.target.value,
+  //   });
+  // };
+  const [selectedOption, setSelectedOption] = useState("none");
+  const handleTypeSelect = e => {
+    setSelectedOption(e.value);
   };
-
+  const options = [
+    {
+      label: "Mechanic",
+      value: "mechanic",
+    },
+    {
+      label: "Electrician",
+      value: "electrician",
+    },
+    {
+      label: "Barber",
+      value: "barber",
+    },
+    {
+      label: "Plumber",
+      value: "plumber",
+    },
+  ];
   return (
     <body>
       <div className="container">
@@ -36,15 +57,9 @@ const Description = () => {
         <form className="formD">
           <div className="selectJob">
             <h4>Please choose the service you need.</h4>
-            <select className="selectoptions" placeholder="Electrician" 
-            onChange={handleChange}
-            defaultValue={"default"}
-            >Electrician
-              <option value={"default"}>Electrician</option>
-              <option>Mechanic</option>
-              <option>Hair stylist</option>
-              <option>Barber</option>
-              <option>Chef</option>
+            <select className="option1"  onChange={handleTypeSelect} placeholder="Electrician">{options.map((option) => (
+              <option  value={option.value}>{option.label}</option>
+            ))}
             </select>
           </div>
           <div className="selectJob">
