@@ -20,7 +20,7 @@ const Login = () => {
             type="text"  name="email" placeholder="@Email" required
             />
             <input
-             type="text"  name="password" placeholder="Password" required 
+              name="password" placeholder="Password"  type="password" 
             />
              <div className="row" id='loginlink'>
             <Link to="" className="col-md-6">  Remember me</Link> 
