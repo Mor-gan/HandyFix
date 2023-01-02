@@ -5,6 +5,7 @@ import { useHistory } from 'react-router-dom';
 
 const Login = () => {
   const history = useHistory()
+
   return (
     <body>
       <div className="row" id="">
@@ -15,7 +16,7 @@ const Login = () => {
         <div className="col-md-5" id="secondDivv">
             <h2 >Welcome</h2>
             <p>Login to your account</p>
-            <form>
+            <form type='submit'>
             <input 
             type="text"  name="email" placeholder="@Email" required
             />
