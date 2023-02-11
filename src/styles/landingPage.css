@@ -30,6 +30,7 @@
   color: #fafdff !important;
   border-radius: 7px;
   text-decoration: none;
+  cursor: pointer;
 }
 #SignupP:hover {
   transform: translateX(20px);
