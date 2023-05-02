@@ -35,7 +35,7 @@
   form button {
     height: 50px;
     width: 63%;
-    background-color: #0a58ca;
+    background-color:  #3864a5;
     color: #fff;
     margin-top: 5%;
     margin-bottom: 3%;
@@ -43,7 +43,7 @@
     border-radius: 8px;
   }
   .spann{
-      color: #0a58ca ;
+      color: #3864a5 ;
   }
   #loginlink{
     margin: 10% 0 5% 0;
